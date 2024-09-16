@@ -5,13 +5,13 @@
     {
       "src": "/index.py",
       "use": "@vercel/python",
-      "config":{"runtime":"python 3.12.0"}
+      "config":{"runtime":"python 3.12.4"}
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"
+      "dest": "app./"
     }
   ]
 }
